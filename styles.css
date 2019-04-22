@@ -1,4 +1,20 @@
 .container-fluid {
+
     background-color: #99ccff;
     height: 100px;
+
+}
+
+main {
+
+    /* center contents */
+    text-align: center;
+
+}
+
+main .form-control {
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+
 }
